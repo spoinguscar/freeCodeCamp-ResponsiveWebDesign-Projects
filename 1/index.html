@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <section>
+      <h1 id="title">Spoingus Survey</h1>
+      <p id="description">By submitting this, you accept Spoingus as your lord</p>
+    </section>
+    <hr>
+    <section>
+      <form method="POST" id="survey-form" action="https://spoingus.org/cult-recruitment/form-submission">
+        <fieldset id="personal-info"><legend>Personal information</legend>
+        <label id="name-label" for="name">Name<input type="text" id="name" placeholder="Enter your name here" required /></label>
+        <label id="email-label" for="email">Email<input type="email" id="email" placeholder="Enter your email ID here" required /></label>
+        <label id="number-label" for="number">Age<input type="number" id="number" placeholder="Enter your age here" min="4" max="100" required/></label>
+        </fieldset>
+        <fieldset id="survey-input"><legend>Survey</legend>
+        <label for="referrer">How did you hear about Spoingus?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Word of Mouth</option>
+            <option value="2">Spoingus Devotees</option>
+            <option value="3">Bingus</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <legend>Favorite Cat</legend>
+        <label for="choice-spoingus"><input id="choice-spoingus" type="radio" name="favorite-cat" class="inline" value="spoingus" checked /> Spoingus</label>
+        <label for="choice-bingus"><input id="choice-bingus" type="radio" name="favorite-cat" class="inline" value="bingus" disabled/> Bingus</label>
+
+        </fieldset>
+        <fieldset id="pledge">
+          <label for="pledge"><input  type="checkbox" class="inline" name="pledge" value="allegiance" required checked> I pledge allegiance to Spoingus</label>
+          <label><input type="checkbox" value="memes" class="inline"> I agree to receive Spoingus related news and memes</label>
+        </fieldset>
+        <label for="love-declaration">Tell us how much you love Spoingus:
+          <textarea id="love-declaration" name="love-declaration" rows="3" cols="30" placeholder="I like Spoingus because..."></textarea>
+        </label>
+
+        <hr>
+
+        
+        <button id="submit" type="submit" value="Submit">Submit</button>
+      </form>
+      
+    </section>
+
+  </body>
+</html>

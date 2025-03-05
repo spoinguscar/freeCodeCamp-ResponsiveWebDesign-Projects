@@ -1,0 +1,119 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    font-style: italic;
+  }
+  
+  /* Main content area */
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for the image container */
+  #img-div {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the image itself */
+  #image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto; /* This ensures the image scales proportionally */
+  }
+  
+  /* Styling for the image caption */
+  #img-caption {
+    font-size: 1em;
+    color: #555;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  /* Tribute info section */
+  #tribute-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  #tribute-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #tribute-info li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  #tribute-info strong {
+    font-weight: bold;
+  }
+  
+  /* Quote section */
+  #quote {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 5px solid #007BFF;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  #quote blockquote {
+    margin: 0;
+  }
+  
+  #quote cite {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+  }
+  
+  footer h3 {
+    font-size: 1.2em;
+  }
+  
+  footer a {
+    color: #FFD700;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
